@@ -159,30 +159,7 @@
   </div>
 </section><!-- End Contact Single-->
 
-<div class='container mt-5'>
-  <table class="table  table-hover">
-    <thead class='text-white table-dark'>
-      <tr>
-        <td>SL</td>
-        <td>Name</td>
-        <td>Email</td>
-        <td>Phone</td>
-        <td>Message</td>
-      </tr>
-    </thead>
-    <tbody>
-      {% for i in item %}
-      <tr>
-        <td>{{i.id}}</td>
-        <td>{{i.name}}</td>
-        <td>{{i.email}}</td>
-        <td>{{i.subject}}</td>
-        <td>{{i.message}}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table> 
-</div>
+
 
 {% endblock main%}
 
